@@ -10,7 +10,7 @@
   </ion-toolbar>
 </ion-header>
 
-<ion-content [fullScreen]="true">
+<ion-content [fullscreen]="true">
   <form *ngIf="contact" #editForm="ngForm" [formGroup]="editContactForm" (ngSubmit)="editContact(editContactForm.value)">
     <ion-list>
       <ion-item>

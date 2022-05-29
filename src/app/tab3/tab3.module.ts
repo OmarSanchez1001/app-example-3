@@ -8,6 +8,7 @@ import { ExploreContainerComponentModule } from '../explore-container/explore-co
 
 import { Tab3PageRoutingModule } from './tab3-routing.module';
 import { ListComponentModule } from '../list/list.module';
+import { FormEditComponentModule } from '../form-edit/form-edit.module';
 
 @NgModule({
   imports: [
@@ -17,7 +18,8 @@ import { ListComponentModule } from '../list/list.module';
     ExploreContainerComponentModule,
     RouterModule.forChild([{ path: '', component: Tab3Page }]),
     Tab3PageRoutingModule,
-    ListComponentModule
+    ListComponentModule,
+    FormEditComponentModule
   ],
   declarations: [Tab3Page]
 })
